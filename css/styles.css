@@ -11737,6 +11737,56 @@ html {
     left: -2vw;
   }
 }
+
+/* Timeline date markers used on the resume page */
+.date-path {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.date-path .line {
+  flex-grow: 1;
+  width: 2px;
+  background-image: linear-gradient(
+    to bottom,
+    var(--bs-primary) 33%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: right;
+  background-size: 2px 8px;
+  background-repeat: repeat-y;
+  transition: background-color 0.3s ease;
+}
+.date-path .date-marker {
+  background-color: var(--bs-primary);
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  line-height: 1;
+  text-align: center;
+  font-weight: 600;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.date-path:hover .date-marker {
+  background-color: var(--bs-secondary);
+  transform: scale(1.05);
+}
+.date-path:hover .line {
+  background-image: linear-gradient(
+    to bottom,
+    var(--bs-secondary) 33%,
+    rgba(255, 255, 255, 0) 0%
+  );
+}
+
+@media (max-width: 576px) {
+  .date-path .date-marker {
+    font-size: 0.6rem;
+    padding: 0.2rem 0.4rem;
+  }
+}
 @media (min-width: 1200px) {
   .profile {
     height: 35vw;
