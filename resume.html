@@ -36,8 +36,9 @@
             </nav>
             <!-- Page Content-->
             <div class="container px-5 my-5">
-                <div class="text-center mb-5">
+                <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center mb-5">
                     <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume</span></h1>
+                    <a href="assets/resume.pdf" class="btn btn-primary" download><i class="bi bi-download me-2"></i>Download PDF</a>
                 </div>
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-11 col-xl-9 col-xxl-8">
@@ -46,37 +47,30 @@
     <div class="container px-5">
         <div class="row gx-5">
             <div class="col-lg-12">
-                <div class="d-flex justify-content-end mb-4">
-                    <a href="assets/resume.pdf" class="btn btn-primary" download>
-                        <i class="bi bi-download me-2"></i>Download PDF
-                    </a>
-                </div>
-                <h2 class="display-5 fw-bolder mb-4">Resume</h2>
-
-                <!-- Contact Information -->
-                <div class="mb-5">
-                    <h3 class="fw-bolder">Krutik Rajesh Panchal</h3>
-                    <ul class="list-unstyled">
-                        <li><i class="bi bi-geo-alt me-2"></i>Rochester, NY</li>
-                        <li><i class="bi bi-telephone me-2"></i>585-957-2641</li>
-                        <li><i class="bi bi-envelope me-2"></i><a href="mailto:krutikpanchal44@gmail.com">krutikpanchal44@gmail.com</a></li>
-                        <li><i class="bi bi-linkedin me-2"></i><a href="https://www.linkedin.com/in/panchalkrutik">LinkedIn/panchalkrutik</a></li>
-                        <li><i class="bi bi-github me-2"></i><a href="https://github.com/Krutik4">GitHub/Krutik4</a></li>
-                    </ul>
+                <div class="mb-4">
+                    <a class="btn btn-outline-primary" href="contact.html">Get in Touch</a>
                 </div>
 
                 <!-- Education -->
                 <div class="mb-5">
-                    <h4 class="fw-bolder">Education</h4>
-                    <ul>
-                        <li><strong>Rochester Institute of Technology (RIT), Rochester, NY</strong> (Aug 2023 - May 2025)<br>Master of Science in Data Science</li>
-                        <li><strong>University of Mumbai, Mumbai</strong> (Jul 2016 - May 2020)<br>Bachelor of Engineering in Information Technology</li>
+                    <h4 class="fw-bolder d-flex align-items-center"><i class="bi bi-mortarboard fs-2 text-gradient me-2"></i>Education</h4>
+                    <ul class="timeline">
+                        <li class="timeline-item">
+                            <h6 class="fw-bolder mb-0">Rochester Institute of Technology (RIT), Rochester, NY</h6>
+                            <div class="text-muted">Aug 2023 - May 2025</div>
+                            <div>Master of Science in Data Science</div>
+                        </li>
+                        <li class="timeline-item">
+                            <h6 class="fw-bolder mb-0">University of Mumbai, Mumbai</h6>
+                            <div class="text-muted">Jul 2016 - May 2020</div>
+                            <div>Bachelor of Engineering in Information Technology</div>
+                        </li>
                     </ul>
                 </div>
 
                 <!-- Skills -->
                 <div class="mb-5">
-                    <h4 class="fw-bolder">Skills</h4>
+                    <h4 class="fw-bolder d-flex align-items-center"><i class="bi bi-tools fs-2 text-gradient me-2"></i>Skills</h4>
                     <ul>
                         <li><strong>Programming:</strong> Python (boto3, PySpark, scikit-learn, pandas, NumPy), SQL, Java</li>
                         <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, Neo4j, Redshift</li>
@@ -89,9 +83,11 @@
 
                 <!-- Experience -->
                 <div class="mb-5">
-                    <h4 class="fw-bolder">Experience</h4>
-                    <ul>
-                        <li><strong>Data Engineer</strong> (Aug 2020 - Jul 2023)<br>Larsen and Toubro Infotech, Mumbai, India
+                    <h4 class="fw-bolder d-flex align-items-center"><i class="bi bi-briefcase fs-2 text-gradient me-2"></i>Experience</h4>
+                    <ul class="timeline">
+                        <li class="timeline-item">
+                            <h6 class="fw-bolder mb-0">Data Engineer</h6>
+                            <div class="text-muted">Aug 2020 - Jul 2023 | Larsen and Toubro Infotech, Mumbai, India</div>
                             <ul>
                                 <li>Architected and managed end-to-end data solutions on AWS using services like EC2, S3, Redshift, Glue, integrated with ETL tools like Talend, dbt, resulting in a 40% improvement in data processing speed.</li>
                                 <li>Optimized ETL and data warehouse processes by embedding automated validation checks, resulting in a 36% reduction in data discrepancies and improved data integrity.</li>
@@ -99,7 +95,9 @@
                                 <li>Collaborated with cross-functional teams and stakeholders in agile environments, transforming business needs into effective data-driven solutions that supported key project deliverables.</li>
                             </ul>
                         </li>
-                        <li><strong>Graduate Teaching Assistant</strong> (Jan 2025 - May 2025)<br>Rochester Institute of Technology, New York
+                        <li class="timeline-item">
+                            <h6 class="fw-bolder mb-0">Graduate Teaching Assistant</h6>
+                            <div class="text-muted">Jan 2025 - May 2025 | Rochester Institute of Technology, New York</div>
                             <ul>
                                 <li>Designed and validated ETL pipelines for batch and stream processing workflows using Python (PySpark), SQL, MongoDB, and Linux, reducing processing times by 30% and ensuring data integrity.</li>
                                 <li>Streamlined deployment and automation by integrating GitLab CI/CD and Apache Airflow, accelerating deployment cycles by 25% while enhancing system scalability and error handling.</li>
@@ -109,39 +107,8 @@
                     </ul>
                 </div>
 
-                <!-- Projects -->
                 <div class="mb-5">
-                    <h4 class="fw-bolder">Projects</h4>
-                    <ul>
-                        <li><strong>LambdaSight: Serverless ETL & Analytics</strong> (Dec 2024)
-                            <ul>
-                                <li>Created a serverless ETL pipeline using AWS Lambda, Glue, Python, and SQL to extract, aggregate, and load data from Amazon Redshift, cutting down execution time by 50%.</li>
-                                <li>Leveraged AWS CloudWatch for monitoring, EventBridge for event-driven orchestration, and IAM for secure access control to automate data workflows, cutting manual tasks by 30%.</li>
-                                <li>Developed interactive Power BI dashboards that provided real-time insights for stakeholders, enhancing decision-making through optimized SQL queries and data transformations.</li>
-                            </ul>
-                        </li>
-                        <li><strong>StockSage: Predictive Inventory Management</strong> (Jan 2025)
-                            <ul>
-                                <li>Constructed a robust PySpark-based ETL solution to integrate data from MySQL, NoSQL (MongoDB Atlas, and JSON files) into medallion architecture, reducing processing time by 30% and ensuring high data accuracy.</li>
-                                <li>Orchestrated efficient batch processing workflows with Apache Airflow to transform raw order transactions into structured tables for dynamic inventory management, leveraging Docker for containerized deployments.</li>
-                                <li>Integrated a time series forecasting model to predict sales and profit, delivering critical performance metrics (MAE, MSE) to support strategic decision-making.</li>
-                            </ul>
-                        </li>
-                        <li><strong>DataNexus: Data Modelling & Dashboard</strong> (Mar 2025)
-                            <ul>
-                                <li>Performed data transformation tasks via PySpark-driven workflows to process and normalize over 1M+ order records into a structured star-snowflake schema, improving data query efficiency and accessibility.</li>
-                                <li>Applied robust data validation, removing incomplete transactions and generating 10 core dimension and fact tables along with store-level partitioned datasets to support modular data analysis and reporting.</li>
-                                <li>Created an interactive Tableau dashboard showcasing KPIs like revenue trends, store-wise sales, supplier performance, thus enhancing visibility for business stakeholders and reducing manual reporting time by 40%.</li>
-                            </ul>
-                        </li>
-                        <li><strong>TickSync: Cloud-Native Stock Stream with Kafka & S3</strong> (Apr 2025)
-                            <ul>
-                                <li>Deployed an end-to-end real-time data pipeline using Apache Kafka on AWS EC2 to simulate stock trades from a 1M+ record dataset using a Python-based producer with Boto3.</li>
-                                <li>Streamed data to Kafka consumer application which processes and stores incoming trade data to Amazon S3 in Parquet format, optimizing downstream processing and reducing query latency by 45%.</li>
-                                <li>Automated metadata management with AWS Glue Crawlers and queried live trading metrics using Amazon Athena, achieving sub-second insights into price trends and trading volumes.</li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <a class="btn btn-outline-primary" href="projects.html">View Projects</a>
                 </div>
             </div>
         </div>
