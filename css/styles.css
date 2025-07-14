@@ -11738,45 +11738,14 @@ html {
   }
 }
 
-/* Timeline date markers used on the resume page */
-.date-path {
-    position: relative;
-    width: 100%;
-    height: 4rem; /* reduced height for a shorter timeline route */
+/* Simple date range styling used on the resume page */
+.date-range {
+    font-weight: 600;
+    color: var(--bs-primary);
 }
-.date-path .line {
-  position: absolute;
-  inset: 0;
-}
-.date-path .line svg {
-  width: 100%;
-  height: 100%;
-}
-.date-path .date-marker {
-  position: absolute;
-  background-color: var(--bs-primary);
-  color: #fff;
-    padding: 0.4rem 0.6rem;
-    border-radius: 50%;
-    font-size: 0.9rem; /* larger date marker text */
-  line-height: 1;
-  text-align: center;
-  font-weight: 600;
-}
-.date-path .date-marker.start {
-  top: 0;
-  left: 0;
-}
-.date-path .date-marker.end {
-  bottom: 0;
-  right: 0;
-}
-
-@media (max-width: 576px) {
-    .date-path .date-marker {
-      font-size: 0.8rem; /* larger date markers on mobile */
-      padding: 0.3rem 0.5rem;
-    }
+.date-range .date-start,
+.date-range .date-end {
+    white-space: nowrap;
 }
 @media (min-width: 1200px) {
   .profile {
