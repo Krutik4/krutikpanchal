@@ -11740,9 +11740,9 @@ html {
 
 /* Timeline date markers used on the resume page */
 .date-path {
-  position: relative;
-  width: 100%;
-  height: 6rem;
+    position: relative;
+    width: 100%;
+    height: 4rem; /* reduced height for a shorter timeline route */
 }
 .date-path .line {
   position: absolute;
@@ -11756,9 +11756,9 @@ html {
   position: absolute;
   background-color: var(--bs-primary);
   color: #fff;
-  padding: 0.25rem 0.5rem;
-  border-radius: 50%;
-  font-size: 0.7rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 50%;
+    font-size: 0.9rem; /* larger date marker text */
   line-height: 1;
   text-align: center;
   font-weight: 600;
@@ -11773,10 +11773,10 @@ html {
 }
 
 @media (max-width: 576px) {
-  .date-path .date-marker {
-    font-size: 0.6rem;
-    padding: 0.2rem 0.4rem;
-  }
+    .date-path .date-marker {
+      font-size: 0.8rem; /* larger date markers on mobile */
+      padding: 0.3rem 0.5rem;
+    }
 }
 @media (min-width: 1200px) {
   .profile {
