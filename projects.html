@@ -72,40 +72,49 @@
             </section>
             <!-- Updated Projects Content -->
             <section class="py-5">
-                <div class="container px-5">
-                    <div class="row gx-5">
-                        <div class="col-lg-12">
-                            <h2 class="display-5 fw-bolder mb-4">Projects</h2>
-                            <ul>
-                                <li><strong>LambdaSight: Serverless ETL & Analytics</strong> (Dec 2024)
-                                    <ul>
-                                        <li>Created a serverless ETL pipeline using AWS Lambda, Glue, Python, and SQL to extract, aggregate, and load data from Amazon Redshift, cutting down execution time by 50%.</li>
-                                        <li>Leveraged AWS CloudWatch for monitoring, EventBridge for event-driven orchestration, and IAM for secure access control to automate data workflows, cutting manual tasks by 30%.</li>
-                                        <li>Developed interactive Power BI dashboards that provided real-time insights for stakeholders, enhancing decision-making through optimized SQL queries and data transformations.</li>
-                                    </ul>
-                                </li>
-                                <li><strong>StockSage: Predictive Inventory Management</strong> (Jan 2025)
-                                    <ul>
-                                        <li>Constructed a robust PySpark-based ETL solution to integrate data from MySQL, NoSQL (MongoDB Atlas, and JSON files) into medallion architecture, reducing processing time by 30% and ensuring high data accuracy.</li>
-                                        <li>Orchestrated efficient batch processing workflows with Apache Airflow to transform raw order transactions into structured tables for dynamic inventory management, leveraging Docker for containerized deployments.</li>
-                                        <li>Integrated a time series forecasting model to predict sales and profit, delivering critical performance metrics (MAE, MSE) to support strategic decision-making.</li>
-                                    </ul>
-                                </li>
-                                <li><strong>DataNexus: Data Modelling & Dashboard</strong> (Mar 2025)
-                                    <ul>
-                                        <li>Performed data transformation tasks via PySpark-driven workflows to process and normalize over 1M+ order records into a structured star-snowflake schema, improving data query efficiency and accessibility.</li>
-                                        <li>Applied robust data validation, removing incomplete transactions and generating 10 core dimension and fact tables along with store-level partitioned datasets to support modular data analysis and reporting.</li>
-                                        <li>Created an interactive Tableau dashboard showcasing KPIs like revenue trends, store-wise sales, supplier performance, thus enhancing visibility for business stakeholders and reducing manual reporting time by 40%.</li>
-                                    </ul>
-                                </li>
-                                <li><strong>TickSync: Cloud-Native Stock Stream with Kafka & S3</strong> (Apr 2025)
-                                    <ul>
-                                        <li>Deployed an end-to-end real-time data pipeline using Apache Kafka on AWS EC2 to simulate stock trades from a 1M+ record dataset using a Python-based producer with Boto3.</li>
-                                        <li>Streamed data to Kafka consumer application which processes and stores incoming trade data to Amazon S3 in Parquet format, optimizing downstream processing and reducing query latency by 45%.</li>
-                                        <li>Automated metadata management with AWS Glue Crawlers and queried live trading metrics using Amazon Athena, achieving sub-second insights into price trends and trading volumes.</li>
-                                    </ul>
-                                </li>
-                            </ul>
+                <div class="container px-5 mb-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <!-- LambdaSight Project -->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">LambdaSight: Serverless ETL & Analytics</h2>
+                                        <p>Created a serverless ETL pipeline using AWS Lambda, Glue, Python, and SQL to extract, aggregate, and load data from Amazon Redshift, cutting down execution time by 50%. Leveraged AWS CloudWatch for monitoring, EventBridge for event-driven orchestration, and IAM for secure access control to automate data workflows, cutting manual tasks by 30%. Developed interactive Power BI dashboards that provided real-time insights for stakeholders, enhancing decision-making through optimized SQL queries and data transformations.</p>
+                                        <a href="#" class="btn btn-primary">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- StockSage Project -->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">StockSage: Predictive Inventory Management</h2>
+                                        <p>Constructed a robust PySpark-based ETL solution to integrate data from MySQL, NoSQL (MongoDB Atlas, and JSON files) into medallion architecture, reducing processing time by 30% and ensuring high data accuracy. Orchestrated efficient batch processing workflows with Apache Airflow to transform raw order transactions into structured tables for dynamic inventory management, leveraging Docker for containerized deployments. Integrated a time series forecasting model to predict sales and profit, delivering critical performance metrics (MAE, MSE) to support strategic decision-making.</p>
+                                        <a href="#" class="btn btn-primary">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- DataNexus Project -->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">DataNexus: Data Modelling & Dashboard</h2>
+                                        <p>Performed data transformation tasks via PySpark-driven workflows to process and normalize over 1M+ order records into a structured star-snowflake schema, improving data query efficiency and accessibility. Applied robust data validation, removing incomplete transactions and generating 10 core dimension and fact tables along with store-level partitioned datasets to support modular data analysis and reporting. Created an interactive Tableau dashboard showcasing KPIs like revenue trends, store-wise sales, supplier performance, thus enhancing visibility for business stakeholders and reducing manual reporting time by 40%.</p>
+                                        <a href="#" class="btn btn-primary">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- TickSync Project -->
+                            <div class="card overflow-hidden shadow rounded-4 border-0">
+                                <div class="card-body p-0">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">TickSync: Cloud-Native Stock Stream with Kafka & S3</h2>
+                                        <p>Deployed an end-to-end real-time data pipeline using Apache Kafka on AWS EC2 to simulate stock trades from a 1M+ record dataset using a Python-based producer with Boto3. Streamed data to Kafka consumer application which processes and stores incoming trade data to Amazon S3 in Parquet format, optimizing downstream processing and reducing query latency by 45%. Automated metadata management with AWS Glue Crawlers and queried live trading metrics using Amazon Athena, achieving sub-second insights into price trends and trading volumes.</p>
+                                        <a href="#" class="btn btn-primary">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
