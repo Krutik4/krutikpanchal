@@ -11854,3 +11854,12 @@ html {
 
 }
 
+/* Form success alert */
+#successAlert {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+#successAlert.show {
+    opacity: 1;
+}
+
