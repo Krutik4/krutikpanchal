@@ -11857,6 +11857,14 @@ html {
 .skills-icons .skill-item i:hover {
     transform: translateY(-5px) scale(1.2);
 }
+.skills-icons .skill-item img {
+    width: 3rem;
+    height: 3rem;
+    transition: transform 0.3s;
+}
+.skills-icons .skill-item img:hover {
+    transform: translateY(-5px) scale(1.2);
+}
 
 /* Form success alert */
 #successAlert {
