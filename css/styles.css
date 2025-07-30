@@ -11827,3 +11827,14 @@ html {
     left: -2vw;
   }
 }
+/* Skills icons */
+.skills-icons i {
+    font-size: 3rem;
+    margin: 0.5rem;
+    transition: transform 0.3s;
+}
+.skills-icons i:hover {
+    transform: translateY(-5px) scale(1.2);
+
+}
+
