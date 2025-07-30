@@ -54,7 +54,11 @@
                                     <a class="text-gradient" href="https://github.com/Krutik4"><i class="bi bi-github"></i></a>
                                     <a class="text-gradient" href="https://www.instagram.com/kruz_4/"><i class="bi bi-instagram"></i></a>
                                 </div>
-                                <form action="https://formsubmit.co/krutikpanchal44@gmail.com" method="POST">
+                                <div id="successAlert" class="alert alert-success text-center position-fixed top-0 start-50 translate-middle-x" role="alert" style="display:none;">
+                                    Thank you! Your message has been sent.
+                                </div>
+                                <form id="contactForm" action="https://formsubmit.co/krutikpanchal44@gmail.com" method="POST">
+                                    <input type="hidden" name="_next" value="contact.html" />
                                     <div class="form-floating mb-3">
                                         <input class="form-control" id="name" name="name" type="text" placeholder="Name" required />
                                         <label for="name">Name</label>
