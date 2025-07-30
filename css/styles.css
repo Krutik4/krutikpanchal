@@ -11789,7 +11789,7 @@ html {
 }
 #contact a:hover i,
 #contact div:hover i {
-  transform: translateY(-4px);
+  transform: translateY(-4px) scale(1.2);
   color: #41ca1b;
 }
 
