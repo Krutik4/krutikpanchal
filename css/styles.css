@@ -11827,6 +11827,7 @@ html {
     left: -2vw;
   }
 }
+
 /* Hover animations */
 .profile .profile-img {
   transition: transform 0.3s ease;
@@ -11842,3 +11843,14 @@ html {
   transform: translateY(-2px);
   color: #41ca1b;
 }
+/* Skills icons */
+.skills-icons i {
+    font-size: 3rem;
+    margin: 0.5rem;
+    transition: transform 0.3s;
+}
+.skills-icons i:hover {
+    transform: translateY(-5px) scale(1.2);
+
+}
+
