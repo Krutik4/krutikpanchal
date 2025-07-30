@@ -11772,12 +11772,26 @@ html {
 @media (max-width: 991.98px) {
   .navbar-nav {
     margin-left: 0 !important;
+    align-items: flex-end;
   }
   .navbar-nav .nav-link {
-    text-align: left;
+    text-align: right;
+    transition: transform 0.3s ease;
+  }
+  .navbar-nav .nav-link:hover {
+    transform: translateX(-5px);
   }
 }
 
+
+#contact i {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+#contact a:hover i,
+#contact div:hover i {
+  transform: translateY(-4px);
+  color: #41ca1b;
+}
 
 /* Simple date range styling used on the resume page */
 .date-range {
