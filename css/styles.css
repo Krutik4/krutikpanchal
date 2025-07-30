@@ -11590,9 +11590,7 @@ html {
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #93c572 0%, #ffeb3b 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #339d15;
 }
 
 .rounded-4 {
