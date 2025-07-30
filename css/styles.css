@@ -11844,14 +11844,18 @@ html {
   color: #41ca1b;
 }
 /* Skills icons */
-.skills-icons i {
+.skills-icons .skill-item {
+    margin: 0.75rem;
+    text-align: center;
+    width: 6rem;
+    font-size: 0.875rem;
+}
+.skills-icons .skill-item i {
     font-size: 3rem;
-    margin: 0.5rem;
     transition: transform 0.3s;
 }
-.skills-icons i:hover {
+.skills-icons .skill-item i:hover {
     transform: translateY(-5px) scale(1.2);
-
 }
 
 /* Form success alert */
@@ -11861,5 +11865,12 @@ html {
 }
 #successAlert.show {
     opacity: 1;
+}
+
+/* Wider container for resume page */
+@media (min-width: 992px) {
+    .resume-container {
+        max-width: 95%;
+    }
 }
 
