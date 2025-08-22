@@ -1,236 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Krutik Panchal</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Custom Google font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Krutik Panchal</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Krutik Panchal</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="70" tabindex="0">
+  <!-- Navigation -->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <div class="container px-4">
+      <a class="navbar-brand fw-bold text-primary" href="#home">Krutik Panchal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="section pt-5">
+    <div class="container px-4 pt-5">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-6 text-center text-lg-start">
+          <h1 class="display-4 fw-bolder mb-3"><span class="text-gradient">Leverage Data for Growth</span></h1>
+          <p class="lead text-muted mb-4">I can help your business make data‑driven decisions.</p>
+          <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-lg-start">
+            <a class="btn btn-primary btn-lg px-5" href="#resume">Resume</a>
+            <a class="btn btn-outline-primary btn-lg px-5" href="#projects">Projects</a>
+          </div>
+        </div>
+        <div class="col-lg-5 text-center mt-5 mt-lg-0">
+          <img class="img-fluid rounded-circle profile-img" src="assets/profile.png" alt="Profile picture" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section bg-light">
+    <div class="container px-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="text-center">
+            <h2 class="section-title"><span class="text-gradient">About Me</span></h2>
+            <p class="lead fw-light mb-4">My name is Krutik Rajesh Panchal, and I specialize in Data Engineering and Cloud Solutions.</p>
+            <p class="text-muted">I am a Data Engineer with expertise in building scalable data pipelines, cloud-native solutions, and machine learning models. With a strong foundation in Python, SQL, and cloud platforms like AWS, I help businesses unlock the power of their data to drive growth and innovation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="section">
+    <div class="container px-4">
+      <div class="text-center mb-5">
+        <h2 class="section-title"><span class="text-gradient">Resume</span></h2>
+        <a href="assets/resume.pdf" class="btn btn-primary mt-3" download><i class="bi bi-download me-2"></i>Download PDF</a>
+      </div>
+      <div class="row gx-5">
+        <div class="col-lg-12">
+          <!-- Education -->
+          <div class="mb-5">
+            <h3 class="fw-bolder d-flex align-items-center mb-4"><i class="bi bi-mortarboard fs-2 text-gradient me-2"></i>Education</h3>
+            <ul class="list-unstyled">
+              <li class="mb-4">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="date-range">Aug 2023 - May 2025</div>
+                  </div>
+                  <div class="col-sm-9">
+                    <div class="fw-bolder">Master of Science in Data Science</div>
+                    <div>Rochester Institute of Technology (RIT)</div>
+                    <div class="text-muted">Rochester, NY</div>
+                  </div>
                 </div>
-            </nav>
-            <!-- Header-->
-            <header class="py-5">
-                <div class="container px-5 pb-5">
-                    <div class="row gx-5 align-items-center">
-                        <div class="col-xxl-5">
-                            <!-- Header text content-->
-                            <div class="text-center text-xxl-start">
-                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
-                                </div>
-                                <div class="fs-3 fw-light text-muted">I can help your business to</div>
-                                <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">Leverage Data for Growth</span></h1>
-                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Resume</a>
-                                    <a class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projects</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-7">
-                            <!-- Header profile picture-->
-                            <div class="d-flex justify-content-center mt-5 mt-xxl-0">
-                                <div class="profile bg-gradient-primary-to-secondary">
-                                    <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
-                                    <!-- Watch a tutorial on how to do this on YouTube (link)-->
-                                    <img class="profile-img" src="assets/profile.png" alt="..." />
-                                    <div class="dots-1">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
-                                    <div class="dots-2">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
-                                    <div class="dots-3">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
-                                    <div class="dots-4">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </li>
+              <li class="mb-4">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="date-range">Jul 2016 - May 2020</div>
+                  </div>
+                  <div class="col-sm-9">
+                    <div class="fw-bolder">Bachelor of Engineering in Information Technology</div>
+                    <div>University of Mumbai</div>
+                    <div class="text-muted">Mumbai</div>
+                  </div>
                 </div>
-            </header>
-            <!-- About Section-->
-            <section class="bg-light py-5">
-                <div class="container px-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-xxl-8">
-                            <div class="text-center my-5">
-                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
-                                <p class="lead fw-light mb-4">My name is Krutik Rajesh Panchal, and I specialize in Data Engineering and Cloud Solutions.</p>
-                                <p class="text-muted">I am a Data Engineer with expertise in building scalable data pipelines, cloud-native solutions, and machine learning models. With a strong foundation in Python, SQL, and cloud platforms like AWS, I help businesses unlock the power of their data to drive growth and innovation.</p>
-                            </div>
-                        </div>
-                    </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Experience -->
+          <div class="mb-5">
+            <h3 class="fw-bolder d-flex align-items-center mb-4"><i class="bi bi-briefcase fs-2 text-gradient me-2"></i>Experience</h3>
+            <ul class="list-unstyled">
+              <li class="mb-4">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="date-range">Aug 2020 - Jul 2023</div>
+                  </div>
+                  <div class="col-sm-9">
+                    <div class="fw-bolder">Data Engineer</div>
+                    <div>Larsen and Toubro Infotech</div>
+                    <div class="text-muted">Mumbai, India</div>
+                    <ul>
+                      <li>Architected and managed end-to-end data solutions on AWS using services like EC2, S3, Redshift, Glue, and Talend, improving data processing speed by 40%.</li>
+                      <li>Optimized ETL and data warehouse processes with automated validation checks, reducing discrepancies by 36%.</li>
+                      <li>Implemented real-time dashboards with Power BI and Tableau, cutting processing time from 2 hours to 1 minute.</li>
+                    </ul>
+                  </div>
                 </div>
-            </section>
-<!-- Contact Section-->
-            <section id="contact" class="py-5">
-                <div class="container px-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-6">
-                            <div class="text-center">
-                                <h2 class="fw-bolder"><span class="text-gradient">Let's Connect</span></h2>
-                                <p class="lead fw-normal text-muted mb-4">I'd love to collaborate and discuss new ideas.</p>
-                                <div class="d-flex flex-column flex-sm-row justify-content-center fs-4 gap-4 mb-3">
-                                    <div><i class="bi bi-geo-alt text-gradient me-2"></i>Rochester, NY</div>
-                                    <div><i class="bi bi-telephone text-gradient me-2"></i>585-957-2641</div>
-                                </div>
-                                <div class="d-flex justify-content-center fs-1 gap-4">
-                                    <a class="text-gradient" href="mailto:krutikpanchal44@gmail.com"><i class="bi bi-envelope"></i></a>
-                                    <a class="text-gradient" href="https://www.linkedin.com/in/panchalkrutik"><i class="bi bi-linkedin"></i></a>
-                                    <a class="text-gradient" href="https://github.com/Krutik4"><i class="bi bi-github"></i></a>
-                                    <a class="text-gradient" href="https://www.instagram.com/kruz_4/"><i class="bi bi-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </li>
+              <li class="mb-4">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="date-range">Jan 2025 - May 2025</div>
+                  </div>
+                  <div class="col-sm-9">
+                    <div class="fw-bolder">Graduate Teaching Assistant</div>
+                    <div>Rochester Institute of Technology</div>
+                    <div class="text-muted">New York</div>
+                    <ul>
+                      <li>Designed and validated ETL pipelines for batch and stream processing workflows using Python (PySpark), SQL, and MongoDB, reducing processing times by 30%.</li>
+                      <li>Streamlined deployment with GitLab CI/CD and Apache Airflow, accelerating deployment cycles by 25%.</li>
+                      <li>Mentored 33 students across 5 hands-on projects in Software Engineering for Data Science.</li>
+                    </ul>
+                  </div>
                 </div>
-            </section>
-        </main>
-        <!-- Footer-->
-        <footer class="bg-white py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">© 2025 Krutik Panchal</div></div>
-                    <div class="col-auto">
-                        <a class="small" href="contact.html">Contact</a>
-                    </div>
-                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Skills -->
+          <div class="mb-5 text-center">
+            <h3 class="fw-bolder mb-4"><i class="bi bi-tools fs-2 text-gradient me-2"></i>Skills</h3>
+            <div class="skills-grid">
+              <div class="skill-item"><i class="devicon-python-plain colored"></i><div>Python</div></div>
+              <div class="skill-item"><i class="devicon-java-plain colored"></i><div>Java</div></div>
+              <div class="skill-item"><i class="devicon-mysql-plain colored"></i><div>MySQL</div></div>
+              <div class="skill-item"><i class="devicon-postgresql-plain colored"></i><div>PostgreSQL</div></div>
+              <div class="skill-item"><i class="devicon-mongodb-plain colored"></i><div>MongoDB</div></div>
+              <div class="skill-item"><i class="devicon-neo4j-plain colored"></i><div>Neo4j</div></div>
+              <div class="skill-item"><i class="devicon-amazonwebservices-original colored"></i><div>AWS</div></div>
+              <div class="skill-item"><i class="devicon-azure-plain colored"></i><div>Azure</div></div>
+              <div class="skill-item"><i class="devicon-docker-plain colored"></i><div>Docker</div></div>
+              <div class="skill-item"><i class="devicon-kubernetes-plain colored"></i><div>Kubernetes</div></div>
+              <div class="skill-item"><i class="devicon-git-plain colored"></i><div>Git</div></div>
+              <div class="skill-item"><i class="devicon-github-original colored"></i><div>GitHub</div></div>
+              <div class="skill-item"><i class="devicon-gitlab-plain colored"></i><div>GitLab</div></div>
+              <div class="skill-item"><i class="devicon-linux-plain colored"></i><div>Linux</div></div>
+              <div class="skill-item"><img src="assets/icons/apachespark.svg" alt="Apache Spark" class="skill-icon-img"/><div>Apache Spark</div></div>
+              <div class="skill-item"><img src="assets/icons/apacheairflow.svg" alt="Apache Airflow" class="skill-icon-img"/><div>Apache Airflow</div></div>
+              <div class="skill-item"><i class="devicon-apachekafka-original colored"></i><div>Kafka</div></div>
+              <div class="skill-item"><i class="bi bi-bar-chart-fill text-gradient"></i><div>Power BI</div></div>
+              <div class="skill-item"><i class="bi bi-graph-up text-gradient"></i><div>Tableau</div></div>
+              <div class="skill-item"><i class="bi bi-pie-chart-fill text-gradient"></i><div>Qlik Sense</div></div>
+              <div class="skill-item"><i class="bi bi-file-earmark-spreadsheet text-gradient"></i><div>Excel</div></div>
+              <div class="skill-item"><i class="devicon-matplotlib-plain colored"></i><div>Matplotlib</div></div>
+              <div class="skill-item"><i class="bi bi-graph-up-arrow text-gradient"></i><div>Seaborn</div></div>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    <script>
-(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="k-UxDb17EVGRHdh-YVL3u";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
-</script>
+          </div>
+
+          <!-- Publications -->
+          <div class="mb-5">
+            <h3 class="fw-bolder d-flex align-items-center mb-4"><i class="bi bi-journal-text fs-2 text-gradient me-2"></i>Publications</h3>
+            <div class="card shadow-sm border-0 mt-3">
+              <div class="card-body">
+                <h5 class="card-title">Assessing Effective Token Length of Multimodal Models for Text-to-Image Retrieval</h5>
+                <div class="text-muted mb-2">SIGIR '25 - July 2025</div>
+                <a class="btn btn-primary btn-sm me-2" href="https://dl.acm.org/doi/10.1145/3726302.3730326" target="_blank">Paper</a>
+                <a class="btn btn-primary btn-sm me-2" href="https://github.com/aiforsec/EffectiveTokenLength-MModels" target="_blank">GitHub</a>
+                <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#pub1Details" aria-expanded="false" aria-controls="pub1Details">More Details</button>
+                <div class="collapse mt-3" id="pub1Details">
+                  <p>Understanding how token length affects retrieval performance across multimodal models is crucial for optimizing queries. This study evaluates text-to-image retrieval tasks with varying token lengths, presenting guidelines for effective tokenization.</p>
+                  <embed src="assets/paper_poster.pdf" type="application/pdf" width="100%" height="600px" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section bg-light">
+    <div class="container px-4 mb-5">
+      <div class="text-center mb-5">
+        <h2 class="section-title"><span class="text-gradient">Projects</span></h2>
+      </div>
+      <div class="row gx-5 justify-content-center">
+        <div class="col-lg-12">
+          <div class="card project-card shadow rounded-4 border-0 mb-5">
+            <div class="card-body p-5">
+              <h3 class="fw-bolder">LambdaSight: Serverless ETL & Analytics</h3>
+              <p>Created a serverless ETL pipeline using AWS Lambda, Glue, Python, and SQL to extract, aggregate, and load data from Amazon Redshift, cutting execution time by 50%. Leveraged CloudWatch and EventBridge for orchestration and built Power BI dashboards for real-time insights.</p>
+            </div>
+          </div>
+          <div class="card project-card shadow rounded-4 border-0 mb-5">
+            <div class="card-body p-5">
+              <h3 class="fw-bolder">StockSage: Predictive Inventory Management</h3>
+              <p>Constructed a PySpark-based ETL solution to integrate data from MySQL, MongoDB, and JSON into a medallion architecture, reducing processing time by 30%. Orchestrated workflows with Airflow and built forecasting models for dynamic inventory management.</p>
+            </div>
+          </div>
+          <div class="card project-card shadow rounded-4 border-0 mb-5">
+            <div class="card-body p-5">
+              <h3 class="fw-bolder">DataNexus: Data Modelling & Dashboard</h3>
+              <p>Performed data transformation tasks via PySpark to process over 1M order records into a star-snowflake schema. Created a Tableau dashboard showcasing KPIs like revenue trends and supplier performance, reducing manual reporting time by 40%.</p>
+            </div>
+          </div>
+          <div class="card project-card shadow rounded-4 border-0">
+            <div class="card-body p-5">
+              <h3 class="fw-bolder">TickSync: Cloud-Native Stock Stream with Kafka & S3</h3>
+              <p>Deployed an end-to-end real-time data pipeline using Apache Kafka on AWS EC2 to simulate stock trades and store results in Amazon S3. Automated metadata with Glue Crawlers and queried live metrics using Athena.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container px-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="text-center mb-5">
+            <h2 class="section-title"><span class="text-gradient">Get in Touch</span></h2>
+            <p class="lead text-muted mb-4">I'd love to collaborate and discuss new ideas.</p>
+            <div class="d-flex flex-column flex-sm-row justify-content-center fs-5 gap-4 mb-4">
+              <div><i class="bi bi-geo-alt text-gradient me-2"></i>Rochester, NY</div>
+              <div><i class="bi bi-telephone text-gradient me-2"></i>585-957-2641</div>
+            </div>
+            <div class="d-flex justify-content-center fs-2 gap-4 mb-4">
+              <a class="text-gradient" href="mailto:krutikpanchal44@gmail.com"><i class="bi bi-envelope"></i></a>
+              <a class="text-gradient" href="https://www.linkedin.com/in/panchalkrutik" target="_blank"><i class="bi bi-linkedin"></i></a>
+              <a class="text-gradient" href="https://github.com/Krutik4" target="_blank"><i class="bi bi-github"></i></a>
+              <a class="text-gradient" href="https://www.instagram.com/kruz_4/" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div>
+            <div id="successAlert" class="alert alert-success text-center position-fixed top-0 start-50 translate-middle-x" role="alert" style="display:none;">
+              Thank you! Your message has been sent.
+            </div>
+          </div>
+          <form id="contactForm" action="https://formsubmit.co/krutikpanchal44@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="#contact" />
+            <div class="form-floating mb-3">
+              <input class="form-control" id="name" name="name" type="text" placeholder="Name" required />
+              <label for="name">Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input class="form-control" id="email" type="email" name="_replyto" placeholder="name@example.com" required />
+              <label for="email">Email</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea class="form-control" id="message" name="message" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
+              <label for="message">Message</label>
+            </div>
+            <div class="d-grid">
+              <button class="btn btn-primary btn-lg" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white py-4 mt-auto">
+    <div class="container px-4 text-center">
+      <div class="small">© 2025 Krutik Panchal</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script>
+    (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="k-UxDb17EVGRHdh-YVL3u";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+  </script>
 </body>
 </html>
